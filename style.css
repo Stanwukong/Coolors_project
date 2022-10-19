@@ -48,13 +48,25 @@ a{
 .scnd{
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid red;
 	align-items: center;
+	border: 1px solid green;
 }
 .icons{
+	float: right;
+	border: 0;
 	display: flex;
-	padding-top: 2%;
-	padding-left: 12%;
+	align-items: center;
+}
+.icons a{
+	padding: 5px 8px;
+	font-size: 1vw;
+	text-align: center;
+	height: 100%;
+}
+.icons a:hover{
+	background-color: rgb(236,236,236);
+	z-index: 0;
+	border-radius: 8px;
 }
 
 /* Color Palettes*/
@@ -63,7 +75,6 @@ main{
 	padding-top: 2%;
 	padding-left: 12%;
 	width: 100%;
-	border: 1px solid red;
 	padding: 0;
 }
 main div{
