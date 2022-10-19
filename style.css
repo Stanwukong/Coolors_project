@@ -1,0 +1,88 @@
+*{
+	font-family: 'Inter', sans-serif;
+}
+body{
+	background-color: rgb(255,255,255);
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-weight: auto;
+}
+
+/* Top Layer */
+.cont1{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 5px;
+}
+ul{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	padding-right: 8px;
+}
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	
+}
+.cont1 img{
+	padding-top: 12%;
+	padding-left: 12%;
+}
+#signup{
+	background-color: rgb(0,102,255);
+	font-size: 14px;
+	color: white;
+	border-radius: 6px;
+	padding: 10px 16px;
+}
+#special{
+	padding-right: 15px;
+	margin-right: 10px;
+	border-right: 1px solid rgb(236,236,236);
+}
+
+/* Second Layer */
+.scnd{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	align-items: center;
+}
+.icons{
+	display: flex;
+	padding-top: 2%;
+	padding-left: 12%;
+}
+
+/* Color Palettes*/
+main{
+	display: flex;
+	padding-top: 2%;
+	padding-left: 12%;
+	width: 100%;
+	border: 1px solid red;
+	padding: 0;
+}
+main div{
+	width: 400px;
+	height: 850px;
+	text-align: center;
+}
+#first{
+	background-color: rgb(39, 39, 39);
+}
+#second{
+	background-color: rgb(254, 215, 102);
+}
+#rd{
+	background-color: rgb(0, 159, 183);
+}
+#th{
+	background-color: rgb(105, 103, 115);
+}
+#tj{
+	background-color: rgb(239, 241, 243);
+}
