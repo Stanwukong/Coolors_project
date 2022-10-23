@@ -70,23 +70,50 @@ a{
 .tool-dropdown{
 	display: none;
 	position: absolute;
-	left: -500px;
+	left: -600px;
 	z-index: 1;
 	background-color: #fff;
 	border-radius: 10px;
-	padding: 20px;
+	box-shadow: 0px 0px 2px rgb(197, 194, 194);
 }
 .dropdown:hover .tool-dropdown{
+	display: flex;
+}
+.dddd{
+	position: relative;
+	display: inline-block;
+}
+.xxxx{
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	left: -280px;
+	bottom: -180px;
+	z-index: 1;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 300px;
+	font-size: 18px;
+	padding: 20px;
+	box-shadow: 0px 0px 2px rgb(197, 194, 194);
+}
+.xxxx span{
+	font-size: 13px;
+	font-weight: 100
+}
+.dddd:hover .xxxx{
 	display: flex;
 }
 .big{
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 350px;
 	font-size: 22px;
 	margin-right: 15px;
 	margin-left: 10px;
 	border-radius: 10px;
+	justify-content: space-between;
+	padding: 15px;
 }
 .big a{
 	padding: 20px;
@@ -122,11 +149,13 @@ a{
 .small{
 	display: flex;
 	flex-direction: column;
-	box-sizing: border-box;
 	width: 200px;
-	font-size: 12px;
-	padding-left: 20px;
+	font-size: 13px;
 	text-align: left;
+	padding: 10px;
+	background-color: rgb(245, 233, 233);
+	border-radius: 10px;
+	padding-left: 20px;
 }
 .small a:hover{
 	color: rgb(0, 102, 255);
