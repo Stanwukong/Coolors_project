@@ -805,6 +805,14 @@ main div p{
 		height: 20%;
 		width: 100%;
 	}
+
+	nav{
+		display: none;
+	}
+	.logoo{
+		position: relative;
+		left: 40vw;
+	}
 	main div h2{
 		position: relative;
 		top: 35%;
@@ -814,7 +822,5 @@ main div p{
 		font-size: 2.2vh;
 		font-weight: 400;
 		letter-spacing: 1px;
-		
-		
 	}
 }
