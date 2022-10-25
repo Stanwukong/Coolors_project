@@ -819,8 +819,24 @@ main div p{
 		left: 30px;
 		display: flex;
 		text-align: center;
-		font-size: 2.2vh;
+		font-size: 16px;
 		font-weight: 400;
 		letter-spacing: 1px;
+	}
+	.small-icons {
+		opacity: 0.3;
+		width: 30%;
+		position: absolute;
+		right: 0;
+	}
+	.small-icons{
+		font-size: large;
+	}
+	.small-icons .fa-solid{
+		position: relative;
+		top: -8px;
+	}
+	main div:hover .small-icons{
+		opacity: 1.0;
 	}
 }
