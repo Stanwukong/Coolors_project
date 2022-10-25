@@ -750,6 +750,9 @@ main{
 	padding: 0;
 	
 }
+.small-icons {
+	display: none;
+}
 main div{
 	width: 20%;
 	text-align: center;
