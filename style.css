@@ -751,7 +751,7 @@ main{
 	
 }
 .small-icons {
-	display: none;
+	visibility: hidden;
 }
 main div{
 	width: 20%;
@@ -782,6 +782,39 @@ main div p{
 #tj{
 	background-color: rgb(236, 190, 180);
 }
+
+/* Footer */
+footer{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+#www{
+	display: none;
+}
+.bttmicons{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	right: 0;
+	width: 40%;
+	
+}
+.footbutt {
+	background-color: #fff;
+	border: 1px solid lightgray;
+	border-radius: 6px;
+	padding: 8px;
+	position: absolute;
+	left: 15px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 1200px){
 	.scnd{
@@ -793,6 +826,9 @@ main div p{
 	}
 }
 @media screen and (max-width: 768px){
+	body{
+		overflow-y: hidden;
+	}
 	main{
 		display: flex;
 		flex-direction: column;
@@ -831,6 +867,7 @@ main div p{
 		width: 30%;
 		position: absolute;
 		right: 0;
+		visibility: visible;
 	}
 	.small-icons{
 		font-size: large;
@@ -842,4 +879,8 @@ main div p{
 	main div:hover .small-icons{
 		opacity: 1.0;
 	}
+	#www {
+		display: flex;
+	}
+
 }
