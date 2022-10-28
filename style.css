@@ -827,6 +827,7 @@ footer{
 	left: 15px;
 	font-weight: 600;
 	letter-spacing: 0.08em;
+	cursor: pointer;
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 1200px){
@@ -872,7 +873,7 @@ footer{
 		position: relative;
 		top: 0;
 		right: 40vw;
-		font-size: 3.2vw;
+		font-size: 2.2vw;
 		text-shadow: none;
 	}	
 	.small-icons {
