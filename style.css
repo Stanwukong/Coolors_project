@@ -758,14 +758,27 @@ main div{
 	text-align: center;
 	overflow: hidden;
 }
-main div h2, main div p{
-	position: relative;
-	top: 713px;
+.color-input{
+	font-size: 1.35em;
+	font-weight: 700;
 	text-shadow: 0px 0px 1px black;
+	width: 40%;
+	padding: 4px;
+	margin: auto;
+	letter-spacing: 0.03em;
+	border-radius: 8px;
 }
 main div p{
 	font-size: 12px;
-	font-weight: 50;
+	font-weight: 100;
+}
+.color-input,
+main div p {
+	position: relative;
+	top: 84%;
+}
+.color-input:hover{
+	background-color: rgba(0, 0, 0, 0.2);
 }
 #first{
 	background-color: rgb(71, 106, 111);
@@ -825,24 +838,27 @@ footer{
 		display: none;
 	}
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 	body{
 		overflow-y: hidden;
 	}
 	main{
 		display: flex;
 		flex-direction: column;
-	}
-	.scnd{
-		display: none;
-	}
-	main{
 		position: absolute;
 		top: 60px;
 	}
+	
+	.scnd{
+		display: none;
+	}
+	
 	main div{
-		height: 20%;
+		height: 18.9%;
 		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 	}
 
 	nav{
@@ -852,24 +868,19 @@ footer{
 		position: relative;
 		left: 35vw;
 	}
-	main div h2{
+	.color-input{	
 		position: relative;
-		top: 35%;
-		left: 30px;
-		display: flex;
-		text-align: center;
-		font-size: 16px;
-		font-weight: 400;
-		letter-spacing: 1px;
-	}
+		top: 0;
+		right: 40vw;
+		font-size: 3.2vw;
+		text-shadow: none;
+	}	
 	.small-icons {
-		opacity: 0.3;
+		opacity: 0.0;
 		width: 30%;
 		position: absolute;
 		right: 0;
 		visibility: visible;
-	}
-	.small-icons{
 		font-size: large;
 	}
 	.small-icons .fa-solid{
@@ -882,5 +893,7 @@ footer{
 	#www {
 		display: flex;
 	}
-
+	.name {
+		display: none;
+	}
 }
