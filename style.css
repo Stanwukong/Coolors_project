@@ -167,6 +167,11 @@ a{
 	align-items: center;
 	border-top: 1px solid rgb(236,236,236);
 }
+#see {
+	background-color: white;
+	font-size: 1em;
+	border: none;
+}
 .icons{
 	display: flex;
 	align-items: center;
@@ -765,13 +770,13 @@ main div{
 	bottom: 20vh;
 	align-items: center;
 	visibility: hidden;
+	transition: 1s ease-out;
 }
 .svgs {
 	width: 15px;
 	padding: 12px;
 }
 main div:hover .svgs {
-	
 	visibility: visible;
 }
 #remove:hover,
