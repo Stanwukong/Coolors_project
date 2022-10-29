@@ -5,7 +5,7 @@ function newColorA() {
 	color = "#";
 
 	for(let i = 0; i < 6; i++){
-		color = color + symbols[Math.ceil(Math.random() * 16)]
+		color = color + symbols[Math.floor(Math.random() * 16)]
 	}
 	document.getElementById('first').style.background = color;
 	document.getElementById('A').innerHTML = color;
@@ -54,7 +54,7 @@ function newColorE() {
 	color = "#";
 	
 	for(let i = 0; i < 6; i++){
-		color = color + symbols[Math.ceil(Math.random() * 16)]
+		color = color + symbols[Math.floor(Math.random() * 16)]
 	}	
 	document.getElementById('tj').style.background = color;
 	document.getElementById('E').innerHTML = color;
